@@ -93,7 +93,7 @@ textarea {
   body{
     background-color: #ffffff;
   }
-  .wrapper{
+  .wrapper{ 
     width: 70%;
     margin: 0 auto;
   }
@@ -107,7 +107,7 @@ textarea {
    ========================================================================== */
   header{
     text-transform: uppercase;
-    background: url("../img/hero.png");
+    background: url("../img/curio.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -133,8 +133,8 @@ textarea {
     padding: 1% 2% 1.5%;
   }
   .navbar a:hover{
-    color: #4bcaff;
-    border: 2px solid #4bcaff;
+    color: hotpink;
+    border: 5px solid hotpink;;
   }
 
   h1 span{
@@ -169,12 +169,41 @@ textarea {
 /* ==========================================================================
    Main
    ========================================================================== */
-.wrapper img{
-width: 1920px;
-height: 1080px;
+.image_curio{
+    background: url("../img/gebouw.jpg");
+    padding: 100px;
+    height: 250px;
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+}
+.center{
+background-color: rgba(74,84,92,0.8);
+text-align: center;
+
+}
+.center h1{
+  color: hotpink;
+
 }
 
-
+.info{
+  padding-top: 10px;
+  background-color: rgba(74,84,92,0.8);
+  text-align: center;
+}
+.info2{
+  background: url("../img/rooster.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 550px;
+}
+.info2 p{
+  color: white;
+  size: 10px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
